@@ -10,7 +10,6 @@ import {
 import PlayerModal from './Modal'
 import { useState } from 'react';
 import tetament from './assets/smokement.png'
-import './styles.css'
 
 
 const ActionAreaCard = () => {
@@ -28,7 +27,8 @@ const ActionAreaCard = () => {
 
                 />
                 <Modal open={open}
-                    onClose={handleClose}>
+                    onClose={handleClose}
+                    className='modal'>
                     <PlayerModal ></PlayerModal>
                 </Modal>
                 <CardContent>
