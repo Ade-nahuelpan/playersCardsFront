@@ -1,0 +1,12 @@
+.box {
+    width: 1200px;
+    height: 900px;
+    background-color: rgba(105, 90, 205, 0.315);
+    display: grid;
+    place-items: center;
+}
+
+.modal {
+    display: grid;
+    place-items: center;
+}

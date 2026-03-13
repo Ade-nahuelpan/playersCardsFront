@@ -1,7 +1,7 @@
-import ActionAreaCard from './Card.jsx'
+import PlayerModal from "./Modal";
 
 
-const count = 10;
+const count = 9;
 const CardMap = () => {
     return (
         <div className='container'>
@@ -9,7 +9,7 @@ const CardMap = () => {
             {
                 //mapeo de las tarjetas
                 Array.from({ length: count }).map((_, index) => (
-                    <ActionAreaCard></ActionAreaCard>
+                    <PlayerModal></PlayerModal>
                 ))
             }
 
